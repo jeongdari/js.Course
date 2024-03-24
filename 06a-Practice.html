@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Times </title>
+</head>
+
+<body>  
+  <script>
+    const hours = new Date().getHours();
+    const name = 'Danny';
+    if (6 <= hours && hours <= 12) {
+      console.log(`Good morning, ${name}!`);
+    } else if (13 <= hours && hours <= 17) {
+      console.log(`Good afternoon, ${name}!`);
+    } else if (18 <= hours && hours <= 20) {
+      console.log(`Good evening, ${name}!`);
+    } else {console.log(`Good night, ${name}!`);}
+  </script>
+</body>
+
+</html>
